@@ -279,12 +279,6 @@ fn main() {
       Potion::new("MAL", 10, 10, 10, 2.0, 0.071429),
   ];
 
-  // print each best potion
-  for potion in &potions {
-      println!("Best Potion: {}", potion.name);
-  }
-  println!("Best potion length is: {}", potions.len());
-
   let mut potions_by_id = HashMap::new();
   for potion in &potions {
       for &id in &potion.id_range {

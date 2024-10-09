@@ -16,6 +16,8 @@ To run `cargo run`
 
 Setup configuration in `src/main.rs`
 
+note: this starts up pretty slow because it is doing a lot of large simluations at the begining
+
 
 # Simulation comparison
 ### Requirements
