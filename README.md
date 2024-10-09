@@ -2,6 +2,7 @@
 
 ### Constraints
 Current constraints set on the brute-ish force
+- assumes the same inventory layout as shown here https://www.youtube.com/watch?v=tfVtxUWhFJE
 - MAL is always the bottom row of the inventory (this makes the simulation take 1/10th the time to run)
 - A mini-sim is run on every layout, this speeds up performance by reducing the number of total sims
 - In a larger sim is run if the mini-sim performs well, if the larger sim beats the current top 10, it gets placed int he top 10
