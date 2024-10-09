@@ -26,10 +26,10 @@ static LYE_TARGET: i32 = 70500;
 
 
 // Number of simulations every layout will run once
-static MINI_SIMS_PER_LAYOUT: i32 = 1; 
+static MINI_SIMS_PER_LAYOUT: i32 = 3; 
 
 // Number of simulations to run for each layout if mini sim performs better than existing layouts
-static DEEP_SIMS_PER_LAYOUT: i32 = 10; 
+static DEEP_SIMS_PER_LAYOUT: i32 = 15; 
 
 
 
