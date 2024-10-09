@@ -16,7 +16,8 @@ inventories = [
     ["Mox Heavy", ["MMA", "AAL", "MML", "ALL", "MMM", "MAL", "MAL", "AAM", "MLL"]],
     ["DockerContnr", ["MML", "MLL", "LLL", "MMA", "AAL", "AAM", "MAL", "MMM", "ALL"]],
 ]
-number_of_runs = 50
+
+number_of_runs = 50 # more runs = slower but more accurate
 
 # all unlocks
 total_mox_needed = 61050
